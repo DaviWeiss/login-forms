@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet" type="text/css">
+    <title>Login forms</title>
+</head>
+<body>
+    <main>
+        <header>
+            <img src="./imgs/logo.svg" alt="img-header">
+        </header>
+
+        <form onsubmit="event.preventDefault()">
+            <div class="content-form">
+                <div class="header">
+                    <div>
+                        <img src="./imgs/log-in.svg" alt="img-login">
+                        <h3>Faça seu login</h3>
+                    </div>
+                    <span>Entre com suas informações de cadastro.</span>
+                </div>
+                <label for="email">E-mail</label>
+                <input type="email" id="e-mail" placeholder="Digite seu e-mail" autofocus>
+
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Digite sua senha">
+
+                <div class="checkbox-footer">
+                    <div class="box-checkbox">
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">
+                            Lembre-me
+                        </label>
+                    </div>
+                    <a>Esqueci minha senha</a>
+                </div>
+
+                <button type="button">Entrar</button>
+                
+                <a class="footer-sign-in"><span>Não tem uma conta?</span> Registre-se</a>
+
+            </div>
+        </form>
+    </main>
+
+    <div class="img">
+        
+    </div>
+    
+</body>
+</html>
